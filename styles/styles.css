@@ -1,7 +1,77 @@
+/* GLOBAL SETTINGS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+:root {
+  --background-color: hsl(0, 0%, 98%);
+  --header-text-color: hsl(234, 12%, 34%);
+}
+
+/* BODY STYLES */
+body {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+}
+
+/* MOBILE FIRST */
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 25px 0 25px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+#header-wrapper-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#header-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#header-title > h1 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--header-text-color);
+}
+
+#header-title > h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--header-text-color);
+}
+
+#header-description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+#header-description > p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--header-text-color);
 }
 
 .attribution {
