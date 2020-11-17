@@ -1,45 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="styles/styles.css" type="text/css" media="all">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+    <!-- TITLE -->
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+  <body>
+    
+    <!-- WRAPPER FOR THE ENTIRE PAGE -->
+    <div class="wrapper" id="wrapper">
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+      <!-- HEADER SECTION -->
+      <header id="header">
+        <div id="header-wrapper">
+          <div id="header-wrapper-text">
+            <h1>Reliable, efficient delivery</h1>
+            <h2>Powered by Technology</h2>
+            <p>Our Artificial Intelligence powered tools use millions of project data points
+            to ensure that your project is successful</p>
+          </div>
+        </div>
+      </header>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+      <!-- MAIN SECTION WITH CARDS -->
+      <main id="main">
 
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+        <!-- LEFT CARD SECTION WRAPPER -->
+        <div id="left-section">
+          <div id="left-card-wrapper">
+            <div id="left-card">
+              <div id="card-text">
+                <h3>Supervisor</h3>
+                <p>Monitors activity to identify project roadblocks</p>
+              </div>
+              <div id="card-image"><img src="" alt=""></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- CENTER CARD SECTION WRAPPER -->
+        <div id="center-section">
+          <div id="center-card-wrapper">
+
+            <!-- THE TOP CENTER CARD -->
+            <div id="center-card-top">
+              <div id="card-text">
+                <h3>Team Builder</h3>
+                <p>Scans our talent network to create the optimal team for your project</p>
+                <div id="card-image"><img src="" alt=""></div>
+              </div>
+            </div>
+
+            <!-- THE BOTTOM CENTER CARD -->
+            <div id="center-card-bottom">
+                <div id="card-text">
+                  <h3>Karma</h3>
+                  <p>Regularly evaluates our talent to ensure quality</p>
+                </div>
+                <div id="card-image"><img src="" alt=""></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- RIGTHCARD SECTION WRAPPER -->
+        <div id="right-section">
+          <div id="right-card-wrapper">
+            <div id="right-card">
+              <div id="card-text">
+                <h3>Calculator</h3>
+                <p>Uses data from past projects to provide better delivery estimates</p>
+              </div>
+              <div id="card-image"><img src="" alt=""></div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
+
 </html>
